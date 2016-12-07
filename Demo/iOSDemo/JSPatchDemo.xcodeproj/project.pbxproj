@@ -80,6 +80,8 @@
 		E1B89EA01B203482000645C2 /* JPMultithreadTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B89E9F1B203482000645C2 /* JPMultithreadTestObject.m */; };
 		E1B89EA31B218986000645C2 /* JPInheritanceTestObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B89EA21B218986000645C2 /* JPInheritanceTestObjects.m */; };
 		E1B89EAE1B228818000645C2 /* multithreadTest.js in Resources */ = {isa = PBXBuildFile; fileRef = E1B89EAD1B228818000645C2 /* multithreadTest.js */; };
+		FBA5990E1DF7F3C700BA9B11 /* JPUnionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA5990D1DF7F3C700BA9B11 /* JPUnionTest.m */; };
+		FBA599101DF7F74800BA9B11 /* JPUnionTest.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA5990F1DF7F74800BA9B11 /* JPUnionTest.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +227,9 @@
 		E1B89EA11B218986000645C2 /* JPInheritanceTestObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPInheritanceTestObjects.h; sourceTree = "<group>"; };
 		E1B89EA21B218986000645C2 /* JPInheritanceTestObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPInheritanceTestObjects.m; sourceTree = "<group>"; };
 		E1B89EAD1B228818000645C2 /* multithreadTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = multithreadTest.js; sourceTree = "<group>"; };
+		FBA5990C1DF7F3C700BA9B11 /* JPUnionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUnionTest.h; sourceTree = "<group>"; };
+		FBA5990D1DF7F3C700BA9B11 /* JPUnionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUnionTest.m; sourceTree = "<group>"; };
+		FBA5990F1DF7F74800BA9B11 /* JPUnionTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JPUnionTest.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -522,6 +527,9 @@
 		DE94AE271AF246C000E461D4 /* JSPatchTests */ = {
 			isa = PBXGroup;
 			children = (
+				FBA5990C1DF7F3C700BA9B11 /* JPUnionTest.h */,
+				FBA5990D1DF7F3C700BA9B11 /* JPUnionTest.m */,
+				FBA5990F1DF7F74800BA9B11 /* JPUnionTest.js */,
 				4F9EBFC61D50749200EC72C1 /* JPNumberTest.h */,
 				4F9EBFC71D50749200EC72C1 /* JPNumberTest.m */,
 				4F9EBFC81D50749200EC72C1 /* jsNumberTest.js */,
@@ -659,6 +667,7 @@
 			files = (
 				DE6FFF031B42B01C0005EE83 /* protocolTest.js in Resources */,
 				2D0DF7071B22F75C005695DA /* inheritTest.js in Resources */,
+				FBA599101DF7F74800BA9B11 /* JPUnionTest.js in Resources */,
 				6C6CAC741C5F0BCA00444348 /* superTest.js in Resources */,
 				DE94AE471AF2480000E461D4 /* test.js in Resources */,
 				36CE191B1CAEA179007D73AC /* jsClassTest.js in Resources */,
@@ -733,6 +742,7 @@
 				6C6CAC751C5F0BCA00444348 /* JPSuperTestObject.m in Sources */,
 				6C72B7961C352BA80086C98D /* newProtocolTest.m in Sources */,
 				DE94AE461AF2480000E461D4 /* JPTestObject.m in Sources */,
+				FBA5990E1DF7F3C700BA9B11 /* JPUnionTest.m in Sources */,
 				36CE191E1CAEA1DE007D73AC /* JPJSClassTest.m in Sources */,
 				36CE19251CB3E709007D73AC /* JPPerformanceTest.m in Sources */,
 				E1B89EA31B218986000645C2 /* JPInheritanceTestObjects.m in Sources */,

@@ -19,6 +19,7 @@
 #import "JPPerformanceTest.h"
 #import "JPCFunctionTest.h"
 #import "JPNumberTest.h"
+#import "JPUnionTest.h"
 
 @interface JSPatchTests : XCTestCase
 
@@ -292,6 +293,22 @@
 }
 
 #pragma mark - jsNumberTest
+
+- (void)testJPUnion {
+    [self loadPatch:@"JPUnionTest"];
+    JPUnionTest* unionTestInstance  = [JPUnionTest new];
+   
+    GLKMatrix4 mtx4;
+    GLKVector3 pos3d = GLKVector3Make(0,1,0);
+    
+    //JSPatchDemoTests was compiled with optimization - stepping may behave oddly; variables may not be available.
+    // error: -[JSPatchTests testJPUnion] : failed: caught "NSInvalidArgumentException", "+[NSMethodSignature signatureWithObjCTypes:]: unsupported type encoding spec '(' in '(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])92@0:8(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])16(_GLKMatrix4={?=ffffffffffffffff}[16f])28'"
+    
+    GLKVector3 posVec =[unionTestInstance compute2dPos:pos3d modelMatrix:mtx4];
+    
+    XCTAssertFalse(isnan(posVec.x));
+    XCTAssertFalse(isnan(posVec.z));
+}
 
 - (void)testJPNumber {
     [self loadPatch:@"jsNumberTest"];
