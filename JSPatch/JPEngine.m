@@ -386,6 +386,10 @@ static void (^_exceptionBlock)(NSString *log) = ^void(NSString *log) {
     }
 }
 
++ (void)defineUnion:(NSDictionary *)defineDict {
+    
+}
+
 + (void)handleMemoryWarning {
     [_JSMethodSignatureLock lock];
     _JSMethodSignatureCache = nil;

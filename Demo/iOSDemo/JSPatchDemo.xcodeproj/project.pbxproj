@@ -82,6 +82,7 @@
 		E1B89EAE1B228818000645C2 /* multithreadTest.js in Resources */ = {isa = PBXBuildFile; fileRef = E1B89EAD1B228818000645C2 /* multithreadTest.js */; };
 		FBA5990E1DF7F3C700BA9B11 /* JPUnionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA5990D1DF7F3C700BA9B11 /* JPUnionTest.m */; };
 		FBA599101DF7F74800BA9B11 /* JPUnionTest.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA5990F1DF7F74800BA9B11 /* JPUnionTest.js */; };
+		FBA599111DF8057B00BA9B11 /* JPUnionTest.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA5990F1DF7F74800BA9B11 /* JPUnionTest.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -624,6 +625,7 @@
 					};
 					DE94AE231AF246C000E461D4 = {
 						CreatedOnToolsVersion = 6.2;
+						ProvisioningStyle = Manual;
 						TestTargetID = DE94AE0A1AF246BF00E461D4;
 					};
 				};
@@ -655,6 +657,7 @@
 				6C9C0EE51C25A7DA00FCAAC5 /* newProtocolTest.js in Resources */,
 				3613C3871C6329F300E915CB /* JSPatch.js in Resources */,
 				3613C38F1C6329F300E915CB /* packer.php in Resources */,
+				FBA599111DF8057B00BA9B11 /* JPUnionTest.js in Resources */,
 				DE6FFF051B42C25D0005EE83 /* protocolTest.js in Resources */,
 				2D6D12FD1B0B8CF20095A435 /* Images.xcassets in Resources */,
 				2D6D13011B0B8CFF0095A435 /* demo.js in Resources */,
@@ -888,6 +891,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -907,6 +911,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

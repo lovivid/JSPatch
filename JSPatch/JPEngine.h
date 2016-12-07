@@ -63,6 +63,8 @@
  */
 + (void)defineStruct:(NSDictionary *)defineDict;
 
++ (void)defineUnion:(NSDictionary *)defineDict;
+
 + (void)handleException:(void (^)(NSString *msg))exceptionBlock;
 @end
 

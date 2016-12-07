@@ -51,6 +51,11 @@
                BlueprintName = "JSPatchTests"
                ReferencedContainer = "container:JSPatchDemo.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "JPPerformanceTest">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
